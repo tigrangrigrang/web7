@@ -1,0 +1,16 @@
+.header, .footer {
+    display: none;
+  }
+  
+  body {
+    padding: 50px;
+  }
+  
+  a::after {
+    content: " (" attr(href) ")"; 
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
